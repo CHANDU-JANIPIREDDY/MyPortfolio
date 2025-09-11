@@ -5,12 +5,12 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Name & Copy */}
+        
         <p className="footer-text">
           © {new Date().getFullYear()} <span className="footer-name">CHANDU JANIPIREDDY</span>. All Rights Reserved.
         </p>
 
-        {/* Contact Info */}
+        
         <div className="footer-contact">
           <a href="mailto:cjanipireddy@gmail.com" className="contact-link">
             <FaEnvelope /> cjanipireddy@gmail.com
@@ -20,7 +20,7 @@ function Footer() {
           </a>
         </div>
 
-        {/* Social Links */}
+        
         <div className="footer-socials">
           <a href="https://github.com/CHANDU-JANIPIREDDY" target="_blank" rel="noopener noreferrer">
             <FaGithub />

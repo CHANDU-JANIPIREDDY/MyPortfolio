@@ -7,7 +7,7 @@ function Home() {
       <div className="home-content">
         <div className="container">
           <div className="row">
-            {/* Left - Image */}
+            
             <div className="col-12 col-md-6">
               <div className="home-image-container">
                 <img
@@ -18,12 +18,12 @@ function Home() {
               </div>
             </div>
 
-            {/* Right - Details */}
+            
             <div className="col-12 col-md-6 home-details">
               <h3 className="home-heading"> HELLO I'M </h3>
               <h1 className="home-heading2">CHANDU JANIPIREDDY</h1>
 
-              {/* Animated Roles */}
+              
               <p className="home-paragraph1">
                 <ReactTyped
                   strings={[
@@ -47,7 +47,7 @@ function Home() {
                   </p>
                 </div>
 
-                {/* Buttons */}
+                
                 <div className="home-button-container">
                   <a href="#about">
                     <button className="home-button"> About Me </button>

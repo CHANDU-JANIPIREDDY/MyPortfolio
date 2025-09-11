@@ -29,8 +29,8 @@ function Projects() {
       title: "PORTFOLIO WEBSITE",
       description: "Portfolio website to showcase projects and skills.",
       image: "https://media.licdn.com/dms/image/v2/D5622AQFM99mzXTo3zw/feedshare-shrink_2048_1536/B56ZP.dgK.GQAo-/0/1735140967826?e=1759968000&v=beta&t=wMRV0UdAkCYmjxLj2FHLtj1y7tt7OiwYK-DWPDePdbY",
-      demo: "https://your-chatbot-link.com",
-      github: "https://github.com/yourusername/chatbot",
+      demo: "https://my-portfolio-73puzo5g4-chandus-projects-de4e27eb.vercel.app/",
+      github: "https://github.com/CHANDU-JANIPIREDDY/MyPortfolio",
     },
     {
       title: "UI/UX DESIGNS",

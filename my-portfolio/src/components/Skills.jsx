@@ -8,9 +8,9 @@ import {
   FaLaptopCode,
   FaReact,
   FaNodeJs,
-  FaBootstrap, // ✅ Bootstrap icon
+  FaBootstrap, 
 } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiTailwindcss } from "react-icons/si"; // ✅ Tailwind icon
+import { SiMongodb, SiExpress, SiTailwindcss } from "react-icons/si"; 
 
 function Skills() {
   const technicalSkills = [
@@ -24,8 +24,8 @@ function Skills() {
     { name: "SQL", icon: <FaDatabase />, level: "75%" },
     { name: "Python", icon: <FaPython />, level: "75%" },
     { name: "Web Development", icon: <FaLaptopCode />, level: "85%" },
-    { name: "Bootstrap", icon: <FaBootstrap />, level: "80%" }, // ✅ Added Bootstrap
-    { name: "Tailwind CSS", icon: <SiTailwindcss />, level: "80%" }, // ✅ Added Tailwind
+    { name: "Bootstrap", icon: <FaBootstrap />, level: "80%" },
+    { name: "Tailwind CSS", icon: <SiTailwindcss />, level: "80%" }, 
   ];
 
   const softSkills = [
