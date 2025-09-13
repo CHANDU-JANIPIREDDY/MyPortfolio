@@ -604,9 +604,28 @@
   }
 
   .project-image {
-    height: 180px;
+    height: 140px; 
+  }
+
+  .btn {
+    padding: 5px 10px; 
+    font-size: 12px;   
+    border-radius: 6px;
+  }
+
+  .project-overlay h3 {
+    font-size: 16px; 
+  }
+
+  .project-overlay p {
+    font-size: 12px;
+  }
+
+  .project-buttons {
+    gap: 6px; 
   }
 }
+
 
 
 
