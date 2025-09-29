@@ -40,11 +40,11 @@ function Projects() {
       github: "",
     },
     {
-      title: "No Project",
+      title: "WIKIPEDIA SEARCH",
       description: " New Project Coming Soon...",
-      image: "https://www.searchenginejournal.com/wp-content/uploads/2020/01/which-web-design-platform-is-right-for-you-5e4d59fb941b9.png",
-      demo: "",
-      github: "",
+      image: "https://fourdots.com/wp-content/uploads/2016/02/wiki-search-engine.jpg",
+      demo: "https://chandu103.ccbp.tech/",
+      github: "https://github.com/CHANDU-JANIPIREDDY/MyPortfolio.git",
     },
   ];
 
