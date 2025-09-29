@@ -41,8 +41,8 @@ function Projects() {
     },
     {
       title: "WIKIPEDIA SEARCH",
-      description: " New Project Coming Soon...",
-      image: "https://fourdots.com/wp-content/uploads/2016/02/wiki-search-engine.jpg",
+      description: "A simple Wikipedia search engine clone with a clean UI and real-time results.",
+      image: "https://www.reputationsciences.com/wp-content/uploads/2023/11/Screenshot-2025-03-30-at-6.58.18%E2%80%AFPM.png",
       demo: "https://chandu103.ccbp.tech/",
       github: "https://github.com/CHANDU-JANIPIREDDY/MyPortfolio.git",
     },
