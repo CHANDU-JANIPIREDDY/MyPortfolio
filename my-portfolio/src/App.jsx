@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";   // ✅ ✅ Combine both into one line
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -8,8 +8,18 @@ import Contact from "./components/Contact";
 import "./App.css";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration in ms
+      once: true,     // animations happen only once
+      offset: 120,    // how far from the top before triggering
+    });
+  }, []);
+
   return (
     <>
       <Navbar />
@@ -17,11 +27,10 @@ function App() {
         <Home />
         <About />
         <Skills />
-        
-        <Projects/>
+        <Projects />
         <Education />
         <Contact />
-        <Footer/>
+        <Footer />
       </main>
     </>
   );

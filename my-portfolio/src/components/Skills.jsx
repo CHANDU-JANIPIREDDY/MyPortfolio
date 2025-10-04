@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -10,9 +10,15 @@ import {
   FaNodeJs,
   FaBootstrap, 
 } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiTailwindcss } from "react-icons/si"; 
+import { SiMongodb, SiExpress, SiTailwindcss } from "react-icons/si";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Skills() {
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true });
+  }, []);
+
   const technicalSkills = [
     { name: "HTML", icon: <FaHtml5 />, level: "90%" },
     { name: "CSS", icon: <FaCss3Alt />, level: "85%" },
@@ -42,7 +48,7 @@ function Skills() {
     <section className="skills-container" id="skills">
       <div className="skills-content container">
         <h2 className="skills-title text-center">MY SKILLS</h2>
-        <p className="skills-paragraph">
+        <p className="skills-paragraph" >
           I have a balance of <span className="highlight">Technical</span> and{" "}
           <span className="highlight">Soft Skills</span> that help me build
           efficient, scalable applications while working effectively in teams.
@@ -51,7 +57,7 @@ function Skills() {
         <div className="row">
           {/* Technical Skills */}
           <div className="col-12 col-lg-6">
-            <div className="skills-box">
+            <div className="skills-box" data-aos="fade-right">
               <h3 className="skills-subtitle">TECHNICAL SKILLS</h3>
               <div className="row">
                 {technicalSkills.map((skill, index) => (
@@ -71,7 +77,7 @@ function Skills() {
 
           {/* Soft Skills */}
           <div className="col-12 col-lg-6">
-            <div className="skills-box">
+            <div className="skills-box" data-aos="fade-left">
               <h3 className="skills-subtitle">SOFT SKILLS</h3>
               <ul className="soft-skills-list">
                 {softSkills.map((skill, index) => (
